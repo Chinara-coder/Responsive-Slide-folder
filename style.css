@@ -1,0 +1,172 @@
+.body{
+    font-family: "Poppins", sans-serif; 
+}
+.heading {
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 101;
+} 
+.nav1 {
+  border-bottom: 2px solid #e5e7eb; /* Açıq boz xətt */
+  padding-bottom: 10px;             /* Yazılarla xətt arası məsafə */
+}
+
+.nav-icon {
+    color: #333333;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+.icon:hover{
+    color: #6c7ae0;
+}
+
+.items {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+
+
+.items:hover {
+    color: #6c7ae0;
+    ;
+}
+
+
+
+.container{
+    max-width: 1140px;
+}
+
+.h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.toolbar{
+  gap:16px;
+  padding:12px 0;
+}
+
+.tabs{
+  display:flex;
+  gap:28px;
+  flex-wrap:wrap;
+}
+.tab{
+  background:none;
+  border:none;
+  padding:6px 0;
+  color:#6b7280;          
+  font:500 16px/1.2 system-ui, -apple-system, "Poppins", Arial, sans-serif;
+  cursor:pointer;
+  border-bottom:2px solid transparent;
+  transition:color .2s, border-color .2s;
+}
+
+.tab:hover {
+  color: #111;
+  border-color: #111; 
+}
+
+.tab.is-active{
+  color:#111;
+  border-color:#111;  
+  font-weight:600;
+}
+
+
+.actions{
+  display:flex;
+  gap:12px;
+  flex-shrink:0;
+}
+.btn{
+  display:inline-flex;
+  text-align: center;
+  align-items:center;
+  gap:10px;
+  padding:10px 20px;
+  background:#fff;
+  color:#374151;
+  border:1px solid #e5e7eb;
+  border-radius:0;
+  cursor:pointer;
+  transition:background .2s, border-color .2s, color .2s, box-shadow .2s;
+}
+.btn:hover{
+  background:#6774D5;
+  border-color:#d1d5db;
+  box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+.product-card { margin-bottom: 40px; }
+
+.image {
+  width: 100%;
+  aspect-ratio: 4/5;     /* eyni nisbət */
+  object-fit: cover;
+}
+
+.info { margin-top: 12px; }
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.title a {
+  color: #6b7280;        
+  text-decoration: none; 
+  font-size: 14px;
+}
+.title a:hover { color: #111; }
+
+
+.heart-btn{
+  width: 28px; height: 28px;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  background: #fff;
+  color: #9aa0a6;
+  cursor: pointer;
+}
+.heart-btn:hover{ color:#111; border-color:#d1d5db; }
+
+
+.price{
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #111;
+}
+
+
+.row {
+  gap: 30px; 
+}
+
+.col-xl-3 {
+  flex: 0 0 23%;
+  max-width: 23%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+
